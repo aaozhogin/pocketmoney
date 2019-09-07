@@ -1,0 +1,4 @@
+.DS_Store
+
+#Pod files
+# *.txt <- ignore all with extension
