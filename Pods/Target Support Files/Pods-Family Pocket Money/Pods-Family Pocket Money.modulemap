@@ -1,0 +1,6 @@
+framework module Pods_Family_Pocket_Money {
+  umbrella header "Pods-Family Pocket Money-umbrella.h"
+
+  export *
+  module * { export * }
+}
