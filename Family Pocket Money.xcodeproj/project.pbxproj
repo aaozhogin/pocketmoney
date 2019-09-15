@@ -21,6 +21,7 @@
 		05409A5623208D42007C8E63 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A5323208D42007C8E63 /* RegisterViewController.swift */; };
 		05409A5823208EA5007C8E63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05409A5723208EA5007C8E63 /* GoogleService-Info.plist */; };
 		05409A5E2320D8F6007C8E63 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A5D2320D8F6007C8E63 /* NewUserViewController.swift */; };
+		05AA57192328A3B0007008AC /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA57182328A3B0007008AC /* historyViewController.swift */; };
 		A3BE829B25731D10CBD099DD /* Pods_Family_Pocket_Money.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF064CD74CCC96FE9F48C25 /* Pods_Family_Pocket_Money.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		05409A5323208D42007C8E63 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		05409A5723208EA5007C8E63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		05409A5D2320D8F6007C8E63 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		05AA57182328A3B0007008AC /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
 		1B9E636CE1CA152CF3839860 /* Pods-Family Pocket Money.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Family Pocket Money.debug.xcconfig"; path = "Target Support Files/Pods-Family Pocket Money/Pods-Family Pocket Money.debug.xcconfig"; sourceTree = "<group>"; };
 		2BF064CD74CCC96FE9F48C25 /* Pods_Family_Pocket_Money.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Family_Pocket_Money.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98138C7795DDA538AE50C1F7 /* Pods-Family Pocket Money.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Family Pocket Money.release.xcconfig"; path = "Target Support Files/Pods-Family Pocket Money/Pods-Family Pocket Money.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				052B79A4232133D3009649EA /* CustomMessageCell.swift */,
 				052B79A5232133D3009649EA /* customMessageCell.xib */,
 				05409A402320853A007C8E63 /* Main.storyboard */,
+				05AA57182328A3B0007008AC /* historyViewController.swift */,
 				05409A462320853B007C8E63 /* Assets.xcassets */,
 				05409A482320853B007C8E63 /* LaunchScreen.storyboard */,
 				05409A4B2320853B007C8E63 /* Info.plist */,
@@ -241,6 +244,7 @@
 				052B79A3232132EA009649EA /* Message.swift in Sources */,
 				05409A5E2320D8F6007C8E63 /* NewUserViewController.swift in Sources */,
 				05409A5423208D42007C8E63 /* FamilyNewsViewController.swift in Sources */,
+				05AA57192328A3B0007008AC /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
