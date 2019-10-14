@@ -12,12 +12,26 @@ import SVProgressHUD
 
 class RegisterViewController: UIViewController {
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toNewUserScreen" {
+            let destinationVC = segue.destination as! NewUserViewController
+            
+            if emailTextField.text != "" {destinationVC.email = emailTextField.text}
+            if passwordTextField.text != "" {
+            destinationVC.password = passwordTextField.text}
+            
+        }
+    }
+    
+    
     @IBOutlet weak var emailTextField: UITextField!
     
     
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func newuserButtonPressed(_ sender: Any) {
+        
     }
     
     @IBAction func loginButtonPressed(_ sender: Any) {
@@ -46,9 +60,9 @@ class RegisterViewController: UIViewController {
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
         
         if let email = UserDefaults.standard.object(forKey: "email") as? String, let password = UserDefaults.standard.object(forKey: "password") as? String {
                 SVProgressHUD.show()
@@ -81,4 +95,16 @@ class RegisterViewController: UIViewController {
     }
     */
 
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

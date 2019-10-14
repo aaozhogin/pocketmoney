@@ -13,12 +13,18 @@ import ProgressHUD
 
 
 class NewUserViewController: UIViewController {
-
+    
+    var email : String?
+    var password : String?
+    
+   
     @IBOutlet weak var emailTextField: UITextField!
+    
+
     
     @IBOutlet weak var passwordTextField: UITextField!
     
-
+    
     @IBAction func signupButtonPressed(_ sender: Any) {
         if emailTextField.text == "" || passwordTextField.text == "" {
             
@@ -45,6 +51,15 @@ class NewUserViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if let emailValue = email{
+            emailTextField.text = emailValue
+        }
+        
+        if let passwordValue = password{
+            passwordTextField.text = passwordValue
+        }
+        
+        
         // Do any additional setup after loading the view.
     }
     
