@@ -13,8 +13,8 @@ pod 'Firebase/Database'
 pod 'SVProgressHUD'
 pod 'ChameleonFramework'
 pod 'ProgressHUD'
-
-
+pod 'Firebase/Core'
+pod 'Firebase/Firestore'
 end
 
 post_install do |installer|

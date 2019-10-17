@@ -49,12 +49,12 @@ class RegisterViewController: UIViewController {
                     } else {
                         print("Login was successful")
                         
-                        UserDefaults.standard.set(self.emailTextField.text, forKey: "email")
-                        UserDefaults.standard.set(self.passwordTextField.text, forKey: "password")
+//                        UserDefaults.standard.set(self.emailTextField.text, forKey: "email")
+//                        UserDefaults.standard.set(self.passwordTextField.text, forKey: "password")
                         
                         SVProgressHUD.dismiss()
                         
-                        self.performSegue(withIdentifier: "toMainMenu", sender: self)
+                        self.performSegue(withIdentifier: "toMainMenu1", sender: self)
                 }
                 }
         }
@@ -73,7 +73,7 @@ class RegisterViewController: UIViewController {
                     
                 }  else {
                     SVProgressHUD.dismiss()
-                    self.performSegue(withIdentifier: "toMainMenu", sender: self)
+                    self.performSegue(withIdentifier: "toMainMenu1", sender: self)
                 }
                 
             }

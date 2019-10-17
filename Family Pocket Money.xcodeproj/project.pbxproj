@@ -7,29 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052B79A12320F1A6009649EA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B79A02320F1A6009649EA /* DataModel.swift */; };
-		052B79A3232132EA009649EA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B79A2232132EA009649EA /* Message.swift */; };
-		052B79A6232133D3009649EA /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B79A4232133D3009649EA /* CustomMessageCell.swift */; };
-		052B79A7232133D3009649EA /* customMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052B79A5232133D3009649EA /* customMessageCell.xib */; };
+		053E82952356914B006EAA56 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E82942356914B006EAA56 /* MainMenuVC.swift */; };
 		05409A3D2320853A007C8E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A3C2320853A007C8E63 /* AppDelegate.swift */; };
 		05409A422320853A007C8E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05409A402320853A007C8E63 /* Main.storyboard */; };
 		05409A452320853A007C8E63 /* Family_Pocket_Money.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05409A432320853A007C8E63 /* Family_Pocket_Money.xcdatamodeld */; };
 		05409A472320853B007C8E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05409A462320853B007C8E63 /* Assets.xcassets */; };
 		05409A4A2320853B007C8E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05409A482320853B007C8E63 /* LaunchScreen.storyboard */; };
-		05409A5423208D42007C8E63 /* FamilyNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A5123208D42007C8E63 /* FamilyNewsViewController.swift */; };
-		05409A5523208D42007C8E63 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A5223208D42007C8E63 /* MainMenuViewController.swift */; };
 		05409A5623208D42007C8E63 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A5323208D42007C8E63 /* RegisterViewController.swift */; };
 		05409A5823208EA5007C8E63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05409A5723208EA5007C8E63 /* GoogleService-Info.plist */; };
 		05409A5E2320D8F6007C8E63 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05409A5D2320D8F6007C8E63 /* NewUserViewController.swift */; };
-		05AA57192328A3B0007008AC /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA57182328A3B0007008AC /* historyViewController.swift */; };
+		05607339235734CD00007181 /* FamilyRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05607338235734CD00007181 /* FamilyRulesViewController.swift */; };
 		A3BE829B25731D10CBD099DD /* Pods_Family_Pocket_Money.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF064CD74CCC96FE9F48C25 /* Pods_Family_Pocket_Money.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		052B79A02320F1A6009649EA /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		052B79A2232132EA009649EA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		052B79A4232133D3009649EA /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
-		052B79A5232133D3009649EA /* customMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customMessageCell.xib; sourceTree = "<group>"; };
+		053E82942356914B006EAA56 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
 		05409A392320853A007C8E63 /* Family Pocket Money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Family Pocket Money.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05409A3C2320853A007C8E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05409A412320853A007C8E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,12 +29,10 @@
 		05409A462320853B007C8E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05409A492320853B007C8E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05409A4B2320853B007C8E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05409A5123208D42007C8E63 /* FamilyNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyNewsViewController.swift; sourceTree = "<group>"; };
-		05409A5223208D42007C8E63 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		05409A5323208D42007C8E63 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		05409A5723208EA5007C8E63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		05409A5D2320D8F6007C8E63 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
-		05AA57182328A3B0007008AC /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		05607338235734CD00007181 /* FamilyRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FamilyRulesViewController.swift; path = "Family Pocket Money/Views/FamilyRulesViewController.swift"; sourceTree = SOURCE_ROOT; };
 		1B9E636CE1CA152CF3839860 /* Pods-Family Pocket Money.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Family Pocket Money.debug.xcconfig"; path = "Target Support Files/Pods-Family Pocket Money/Pods-Family Pocket Money.debug.xcconfig"; sourceTree = "<group>"; };
 		2BF064CD74CCC96FE9F48C25 /* Pods_Family_Pocket_Money.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Family_Pocket_Money.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98138C7795DDA538AE50C1F7 /* Pods-Family Pocket Money.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Family Pocket Money.release.xcconfig"; path = "Target Support Files/Pods-Family Pocket Money/Pods-Family Pocket Money.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +50,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053E82962356982F006EAA56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05607338235734CD00007181 /* FamilyRulesViewController.swift */,
+				05409A5323208D42007C8E63 /* RegisterViewController.swift */,
+				05409A5D2320D8F6007C8E63 /* NewUserViewController.swift */,
+				053E82942356914B006EAA56 /* MainMenuVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		053E829723569853006EAA56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05409A462320853B007C8E63 /* Assets.xcassets */,
+				05409A3C2320853A007C8E63 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		053E82982356986F006EAA56 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				05409A432320853A007C8E63 /* Family_Pocket_Money.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		053E82992356989D006EAA56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05409A402320853A007C8E63 /* Main.storyboard */,
+				05409A482320853B007C8E63 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		05409A302320853A007C8E63 = {
 			isa = PBXGroup;
 			children = (
@@ -81,22 +108,12 @@
 		05409A3B2320853A007C8E63 /* Family Pocket Money */ = {
 			isa = PBXGroup;
 			children = (
-				05409A3C2320853A007C8E63 /* AppDelegate.swift */,
-				052B79A2232132EA009649EA /* Message.swift */,
-				05409A5223208D42007C8E63 /* MainMenuViewController.swift */,
-				05409A5323208D42007C8E63 /* RegisterViewController.swift */,
-				05409A5D2320D8F6007C8E63 /* NewUserViewController.swift */,
-				05409A5123208D42007C8E63 /* FamilyNewsViewController.swift */,
-				052B79A4232133D3009649EA /* CustomMessageCell.swift */,
-				052B79A5232133D3009649EA /* customMessageCell.xib */,
-				05409A402320853A007C8E63 /* Main.storyboard */,
-				05AA57182328A3B0007008AC /* historyViewController.swift */,
-				05409A462320853B007C8E63 /* Assets.xcassets */,
-				05409A482320853B007C8E63 /* LaunchScreen.storyboard */,
-				05409A4B2320853B007C8E63 /* Info.plist */,
 				05409A5723208EA5007C8E63 /* GoogleService-Info.plist */,
-				05409A432320853A007C8E63 /* Family_Pocket_Money.xcdatamodeld */,
-				052B79A02320F1A6009649EA /* DataModel.swift */,
+				05409A4B2320853B007C8E63 /* Info.plist */,
+				053E82982356986F006EAA56 /* DataModel */,
+				053E82992356989D006EAA56 /* Views */,
+				053E82962356982F006EAA56 /* Controllers */,
+				053E829723569853006EAA56 /* Supporting Files */,
 			);
 			path = "Family Pocket Money";
 			sourceTree = "<group>";
@@ -181,7 +198,6 @@
 				05409A5823208EA5007C8E63 /* GoogleService-Info.plist in Resources */,
 				05409A4A2320853B007C8E63 /* LaunchScreen.storyboard in Resources */,
 				05409A472320853B007C8E63 /* Assets.xcassets in Resources */,
-				052B79A7232133D3009649EA /* customMessageCell.xib in Resources */,
 				05409A422320853A007C8E63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,16 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052B79A6232133D3009649EA /* CustomMessageCell.swift in Sources */,
-				052B79A12320F1A6009649EA /* DataModel.swift in Sources */,
-				05409A5523208D42007C8E63 /* MainMenuViewController.swift in Sources */,
+				053E82952356914B006EAA56 /* MainMenuVC.swift in Sources */,
 				05409A3D2320853A007C8E63 /* AppDelegate.swift in Sources */,
+				05607339235734CD00007181 /* FamilyRulesViewController.swift in Sources */,
 				05409A5623208D42007C8E63 /* RegisterViewController.swift in Sources */,
 				05409A452320853A007C8E63 /* Family_Pocket_Money.xcdatamodeld in Sources */,
-				052B79A3232132EA009649EA /* Message.swift in Sources */,
 				05409A5E2320D8F6007C8E63 /* NewUserViewController.swift in Sources */,
-				05409A5423208D42007C8E63 /* FamilyNewsViewController.swift in Sources */,
-				05AA57192328A3B0007008AC /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
